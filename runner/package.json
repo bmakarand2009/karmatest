@@ -1,0 +1,35 @@
+{
+  "name": "karmatest",
+  "version": "1.0.0",
+  "description": "angularjs with karma tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "karma",
+    "angularjs"
+  ],
+  "author": "Makarand Bkar",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-contrib-uglify": "~0.2.0",
+    "matchdep": "~0.1.2",
+
+    "karma": "~0.12.16",
+    "karma-jasmine": "~0.1.5",
+    "karma-script-launcher": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-firefox-launcher": "~0.1.3",
+    "karma-ie-launcher": "~0.1",
+    "karma-phantomjs-launcher": "~0.1.2",
+    "karma-story-reporter": "~0.2.2",
+    "grunt-karma": "~0.8.3",
+    "karma-htmlfile-reporter": "~0.1.2",
+    "jasmine-expect":"~1.22.0",
+    "grunt-cli": "~0.1.13",
+    "karma-sauce-launcher": "~0.1.8"
+  }
+}
