@@ -5,7 +5,7 @@ simple tutorial of using karma with angularjs.
 
 This project integraetes karma with AngularJS. It has the corresponding Gruntfile.js and package.json which will allow to run the testcases throught grun
 
-What is the structure of the project?
+What is the structure of the project? <br>
 source/ 
    counter.js
   counter-test.js
@@ -21,14 +21,14 @@ GruntfIle.js - has the default goal to run the karma tests
 karma.conf.js - defines the configuration for karma, which will run the jasmine tests
 
 
-Prerequisites
+Prerequisites<br>
 Need to have nodeJs installed on your machines, to run the npm commands
 
-How do I run the project?
+How do I run the project?<br>
 1. cd /karamtest/runner
 2. npm install 
 3. grunt   //just type grunt, this will automatically run the karma testcase for you
 
-Other References
+Other References<br>
 This tutorial is based on a detailed blog 
 http://kwilson.me.uk/blog/use-karma-and-grunt-to-run-your-jasmine-tests-in-real-time/
