@@ -74,4 +74,10 @@ describe("Counter tests"    , function () {
         expect(result).toBe(expected);
     });
 
+    it('isEvenNumber - test if number is even',function(){
+        var expected = true;
+        var result = counter.isEvenNumber(4);
+        expect(result).toBeTruthy();
+    });
+
 });

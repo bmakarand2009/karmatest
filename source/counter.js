@@ -21,11 +21,15 @@ var counter = (function () {
         return JSON.stringify(a1)
     }
 
+    var isEvenNumber = function(n){
+       return n == parseFloat(n)? !(n%2) : void 0;
+    }
     return{
         add :add,
         subtract:subtract,
         difference:difference,
-        summary:summary
+        summary:summary,
+        isEvenNumber:isEvenNumber
     };
 
 }());
